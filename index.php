@@ -204,7 +204,7 @@
      <!---------------------------- Body -------------------------->
 
      <div class="container-flex body-img">
-        <amp-img src="\LeifKleven\Static\Container.png"
+        <amp-img src="  /Static/Container.png"
             width="1228" height="819" layout="responsive">
         </amp-img>
         <div class="image-text-body">
@@ -246,14 +246,14 @@
                     Attorney Leif Kleven is San Diego County's premiere attorney representing you and your loved ones in litigation involving  personal injury cases, car accidents, appeals, and more.
                 </amp-fit-text>
             </div>
-            <input type="image" src="\LeifKleven\Static\bookConsultancy.png" alt="Book Consultancy Now" width="300px" height="auto">
+            <input type="image" src="  /Static/bookConsultancy.png" alt="Book Consultancy Now" width="300px" height="auto">
         </div>
     </div>
 
             <!---------------------------- Section 2 -------------------------->
             <div class="container-flex page-2">
 
-            <amp-img class="decorator01" src="\LeifKleven\Static\Decorator01.png"
+            <amp-img class="decorator01" src="  /Static/Decorator01.png"
             width="100" height="100" layout="responsive">
         </amp-img>
             <div class="body-text-heading-p2 col-md-6">
@@ -262,7 +262,7 @@
                     Personal Injury
                 </amp-fit-text>
         </div>
-        <amp-img class="decorator" src="\LeifKleven\Static\Decorator.png"
+        <amp-img class="decorator" src="  /Static/Decorator.png"
             width="50" height="50" layout="responsive">
         </amp-img>
 
@@ -275,19 +275,19 @@
                     Attorney Leif H. Kleven is a personal injury attorney, representing those who have been injured because of another's conduct. Whether you or a loved one were involved in a car accident, a bicycle accident, or the victim of another's wrongful conduct, the Law Office of Leif Kleven is dedicated to protecting your rights and ensuring that you are justly compensated for your injuries.
                 </amp-fit-text>
             </div>
-            <input type="image" src="\LeifKleven\Static\ContectUsNow.png" alt="Contact Us Now" width="300px" height="auto">
+            <input type="image" src="  /Static/ContectUsNow.png" alt="Contact Us Now" width="300px" height="auto">
         </div>
     </div>
             <!---------------------------- Section 3 -------------------------->
 <div class="row">
     <div class="container-flex col-md-6 col-sm-12">
-        <amp-img class="p3Image" src="\LeifKleven\Static\p3Image.png"
+        <amp-img class="p3Image" src="  /Static/p3Image.png"
                 width="100" height="100" layout="responsive">
             </amp-img>
     </div>
 
     <div class="container-flex p3content col-md-6 col-sm-12">
-    <amp-img class="decorator3" src="\LeifKleven\Static\Decorator01.png"
+    <amp-img class="decorator3" src="  /Static/Decorator01.png"
             width="100" height="100" layout="responsive">
         </amp-img>
             <div class="body-text-heading-p3">
@@ -303,14 +303,14 @@
                     San Diego federal criminal defense attorney Leif Kleven represents individuals charged with any federal crime. Your freedom is at stake once you have been charged with a federal crime. He has the federal trial experience in U.S. District Court for the Southern District of California and experience before the Ninth Circuit Court of Appeal to fight for your rights at every step.
                 </amp-fit-text>
                 </div>
-            <input type="image" src="\LeifKleven\Static\ContectUsNow.png" alt="Contact Us Now" width="300px" height="auto">
+            <input type="image" src="  /Static/ContectUsNow.png" alt="Contact Us Now" width="300px" height="auto">
             </div>
         </div>
     </div>
      <!---------------------------- Section 4 -------------------------->
      <div class="container-flex page-2">
 
-        <amp-img class="decorator01" src="\LeifKleven\Static\Decorator01.png"
+        <amp-img class="decorator01" src="  /Static/Decorator01.png"
         width="200" height="200" layout="responsive">
         </amp-img>
         <div class="body-text-heading-p2 col-md-6">
@@ -319,7 +319,7 @@
                 Appeals
             </amp-fit-text>
         </div>
-        <amp-img class="decorator" src="\LeifKleven\Static\Decorator.png"
+        <amp-img class="decorator" src="  /Static/Decorator.png"
         width="50" height="50" layout="responsive">
         </amp-img>
 
@@ -329,7 +329,7 @@
                 width="200" height="60" layout="responsive">
                 Decisions of the trial court may not be the end of litigation. Attorney Leif Kleven is an experienced appellate attorney and works with you to represent your interests on appeal, and is licensed to practice before the California Supreme Court, all of the Courts of Appeal in the State of California, and the Ninth Circuit Court of Appeals</amp-fit-text>
         </div>
-        <input type="image" src="\LeifKleven\Static\ContectUsNow.png" alt="Contact Us Now" width="300px" height="auto">
+        <input type="image" src="  /Static/ContectUsNow.png" alt="Contact Us Now" width="300px" height="auto">
         </div>
         </div>
 
@@ -338,12 +338,12 @@
         <!---------------------------- Section 5 -------------------------->
 
     <div class="row">
-        <amp-img class="Container-about" src="\LeifKleven\Static\Container-about.png"
+        <amp-img class="Container-about" src="  /Static/Container-about.png"
                 width="200" height="100" layout="responsive">
             </amp-img>
 
         <div class="container-flex p5content col-md-5 col-sm-12">
-            <amp-img class="decorator3" src="\LeifKleven\Static\Decorator01.png"
+            <amp-img class="decorator3" src="  /Static/Decorator01.png"
                 width="200" height="200" layout="responsive">
             </amp-img>
                 <div class="body-text-heading-p3">
@@ -365,7 +365,7 @@
  <!---------------------------- Section 6 FAQs -------------------------->
 
  <div class="row faqs">
-       <amp-img class="faqsBg img-fluid" src="\LeifKleven\Static\bgFaqs.png"
+       <amp-img class="faqsBg img-fluid" src="  /Static/bgFaqs.png"
          width="200"
          height="100"
          layout="responsive"
@@ -496,7 +496,7 @@
       </form>
     </div>
     <div class="contact-img">
-    <amp-img class="" style="width:50%; height: auto; float:right;" src="\LeifKleven\Static\contactFormLogo.png"
+    <amp-img class="" style="width:50%; height: auto; float:right;" src="  /Static/contactFormLogo.png"
          width="1"
          height="1"
          layout="responsive"
@@ -525,7 +525,7 @@
                         <amp-fit-text>
                     </div>
                 <div class="slider-image">
-                    <amp-img class="slider-image" src="\LeifKleven\Static\ReviewImage.png" width="400" height="300" layout="responsive"></amp-img>
+                    <amp-img class="slider-image" src="  /Static/ReviewImage.png" width="400" height="300" layout="responsive"></amp-img>
                 </div>
             </div>
             <div class="slide">
@@ -535,7 +535,7 @@
                     <amp-fit-text>
                     </div>
                 <div class="slider-image">
-                    <amp-img class="slider-image" src="\LeifKleven\Static\ReviewImage.png" width="400" height="300" layout="responsive"></amp-img>
+                    <amp-img class="slider-image" src="  /Static/ReviewImage.png" width="400" height="300" layout="responsive"></amp-img>
                 </div>
             </div>
             <div class="slide">
@@ -545,7 +545,7 @@
                     <amp-fit-text>
                     </div>
                 <div class="slider-image">
-                    <amp-img class="slider-image" src="\LeifKleven\Static\ReviewImage.png" width="400" height="300" layout="responsive"></amp-img>
+                    <amp-img class="slider-image" src="  /Static/ReviewImage.png" width="400" height="300" layout="responsive"></amp-img>
                 </div>
             </div>
         </div>
