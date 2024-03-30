@@ -218,7 +218,7 @@
         
         <!-- Image -->
         <div class="container-flex col-md-6 col-sm-12">
-            <amp-img class="p3Image" src="\LeifKleven\Static\Container.png" width="100" height="100" layout="responsive"></amp-img>
+            <amp-img class="p3Image" src="/Static/Container.png" width="100" height="100" layout="responsive"></amp-img>
         </div>
     </div>
 </div>

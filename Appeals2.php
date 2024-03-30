@@ -231,7 +231,7 @@
     
     <!---------------------------- Section 1 -------------------------->
     <div class="container-flex body-img">
-        <amp-img src="\LeifKleven\Static\Appeal2 banner.png" 
+        <amp-img src="/Static/Appeal2 banner.png" 
             width="1228" height="819" layout="responsive">
         </amp-img>
         <div class="image-text-body">
@@ -268,7 +268,7 @@
             </div>
             <!-- Image column -->
             <div class="col-md-6">
-                <amp-img src="\LeifKleven\Static\Appeal2.png" alt="Image" width="200" height="80" layout="responsive"></amp-img>
+                <amp-img src="/Static/Appeal2.png" alt="Image" width="200" height="80" layout="responsive"></amp-img>
             </div>
         </div>
     </div>

@@ -250,7 +250,7 @@
      <!---------------------------- Body -------------------------->
 
     <div class="container-flex body-img">
-    <amp-img src="\LeifKleven\Static\bgimg.png" 
+    <amp-img src="/Static/bgimg.png" 
         width="1228" height="819" layout="responsive">
     </amp-img>
     <div class="image-text-body">
@@ -280,7 +280,7 @@
             <!---------------------------- Section 2 -------------------------->
             <div class="container-flex page-2">
 
-            <amp-img class="decorator01" src="\LeifKleven\Static\Decorator01.png" 
+            <amp-img class="decorator01" src="/Static/Decorator01.png" 
             width="100" height="100" layout="responsive">
         </amp-img>
             <div class="body-text-heading-p2 col-md-6">
@@ -289,7 +289,7 @@
                     Personal Injury
                 </amp-fit-text>
         </div>
-        <amp-img class="decorator" src="\LeifKleven\Static\Decorator.png" 
+        <amp-img class="decorator" src="/Static/Decorator.png" 
             width="50" height="50" layout="responsive">
         </amp-img>
         
@@ -310,13 +310,13 @@
             <!---------------------------- Section 3 -------------------------->
 <div class="row">
     <div class="container-flex col-md-6 col-sm-12">
-        <amp-img class="p3Image" src="\LeifKleven\Static\p3Image.png" 
+        <amp-img class="p3Image" src="/Static/p3Image.png" 
                 width="100" height="100" layout="responsive">
             </amp-img>
     </div>
 
     <div class="container-flex p3content col-md-6 col-sm-12">
-    <amp-img class="decorator3" src="\LeifKleven\Static\Decorator01.png" 
+    <amp-img class="decorator3" src="/Static/Decorator01.png" 
             width="100" height="100" layout="responsive">
         </amp-img>
             <div class="body-text-heading-p3">
@@ -339,7 +339,7 @@
      <!---------------------------- Section 4 -------------------------->
      <div class="container-flex page-2">
 
-        <amp-img class="decorator01" src="\LeifKleven\Static\Decorator01.png" 
+        <amp-img class="decorator01" src="/Static/Decorator01.png" 
         width="200" height="200" layout="responsive">
         </amp-img>
         <div class="body-text-heading-p2 col-md-6">
@@ -348,7 +348,7 @@
                 Appeals
             </amp-fit-text>
         </div>
-        <amp-img class="decorator" src="\LeifKleven\Static\Decorator.png" 
+        <amp-img class="decorator" src="/Static/Decorator.png" 
         width="50" height="50" layout="responsive">
         </amp-img>
 
@@ -367,12 +367,12 @@
         <!---------------------------- Section 5 -------------------------->
 
     <div class="row">
-        <amp-img class="Container-about" src="\LeifKleven\Static\teambg.png" 
+        <amp-img class="Container-about" src="/Static/teambg.png" 
                 width="200" height="100" layout="responsive">
             </amp-img>
 
         <div class="container-flex p5content col-md-5 col-sm-12">
-            <amp-img class="decorator3" src="\LeifKleven\Static\Decorator01.png" 
+            <amp-img class="decorator3" src="/Static/Decorator01.png" 
                 width="200" height="200" layout="responsive">
             </amp-img>
             <div class="body-text-heading-p3 normal-font"> 
@@ -395,7 +395,7 @@
  <!---------------------------- Section 6 FAQs -------------------------->
 
  <div class="row faqs">
-       <amp-img class="faqsBg img-fluid" src="\LeifKleven\Static\bgFaqs.png"
+       <amp-img class="faqsBg img-fluid" src="/Static/bgFaqs.png"
          width="200"
          height="100"
          layout="responsive"

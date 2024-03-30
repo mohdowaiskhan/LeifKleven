@@ -231,7 +231,7 @@
      <!---------------------------- Body -------------------------->
 <!---------------------------- Section 1 -------------------------->
      <div class="container-flex body-img">
-        <amp-img src="\LeifKleven\Static\banner-appeals.png" 
+        <amp-img src="/Static/banner-appeals.png" 
             width="1228" height="819" layout="responsive">
         </amp-img>
         <div class="image-text-body">
@@ -249,7 +249,7 @@
             <!---------------------------- Section 1 END -------------------------->
             <!---------------------------- Section 2 -------------------------->
             <div class="container"  style="background:#D8D8D8;">
-            <amp-img class="decorator01" src="\LeifKleven\Static\Decorator01.png" 
+            <amp-img class="decorator01" src="/Static/Decorator01.png" 
             width="100" height="100" layout="responsive">
         </amp-img>       
     <h1>Details</h1>
@@ -265,7 +265,7 @@
       </div>
       <!-- Image column -->
       <div class="col-md-6">
-        <amp-img src="\LeifKleven\Static\Appeal 1.png" alt="Image" width="300" height="200" layout="responsive"></amp-img>
+        <amp-img src="/Static/Appeal 1.png" alt="Image" width="300" height="200" layout="responsive"></amp-img>
       </div>
     </div>
   </div>
@@ -281,7 +281,7 @@
     <div class="row">
         <!-- Image column -->
       <div class="col-md-6">
-        <amp-img src="\LeifKleven\Static\Appeal 2.png" alt="Image" width="300" height="140" layout="responsive"></amp-img>
+        <amp-img src="/Static/Appeal 2.png" alt="Image" width="300" height="140" layout="responsive"></amp-img>
       </div>
       <!-- Paragraph column -->
       <div class="col-md-6">

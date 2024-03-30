@@ -91,7 +91,7 @@
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <h6 class="text-uppercase mb-4 font-weight-bold">
             <a href="#" >
-                <amp-img class="footerlogo" src="\LeifKleven\Static\sitelogo.png"
+                <amp-img class="footerlogo" src="/Static/sitelogo.png"
                 width="1"
                 height="1"
                 layout="responsive"

@@ -241,13 +241,13 @@
      <!---------------------------- Section 1 -------------------------->
      <div class="row" style=" background-color:#D8D8D8;">
     <div class="container-flex col-md-6 col-sm-12" style=" background-color:#D8D8D8;">
-        <amp-img class="p3Image" src="\LeifKleven\Static\Container.png" 
+        <amp-img class="p3Image" src="/Static/Container.png" 
                 width="100" height="100" layout="responsive">
             </amp-img>
     </div>
 
     <div class="container-flex p3content col-md-6 col-sm-12">
-    <amp-img class="decorator3" src="\LeifKleven\Static\Decorator01.png" 
+    <amp-img class="decorator3" src="/Static/Decorator01.png" 
             width="100" height="100" layout="responsive">
         </amp-img>
         <div class="container-flex col-md-12 col-sm-12" style="display: flex; align-items: center;  background-color:#D8D8D8;">
@@ -271,7 +271,7 @@
     <div class="row">
 </div>
     <div class="container-flex p3content col-md-6 col-sm-12">
-    <amp-img class="decorator3" src="\LeifKleven\Static\Decorator01.png" 
+    <amp-img class="decorator3" src="/Static/Decorator01.png" 
             width="100" height="100" layout="responsive">
         </amp-img>
         <h1>Bar Admissions</h1>
@@ -305,12 +305,12 @@
     <div class="row justify-content-center">
         <!-- First column for the first image -->
         <div class="col-md-6" style="max-width: 450px;">
-            <img src="\LeifKleven\Static\School.png" class="img-fluid mx-auto d-block" alt="First Image">
+            <img src="/Static/School.png" class="img-fluid mx-auto d-block" alt="First Image">
         </div>
         
         <!-- Second column for the second image -->
         <div class="col-md-6" style="max-width: 230px; margin-top:0px; ">
-            <img src="\LeifKleven\Static\University.png" class="img-fluid mx-auto d-block" alt="Second Image">
+            <img src="/Static/University.png" class="img-fluid mx-auto d-block" alt="Second Image">
         </div>
     </div>
 </div>
@@ -348,10 +348,10 @@
     <!-- Second column with images -->
     <div class="col-md-6">
         <div>
-            <img src="\LeifKleven\Static\image 2.png" alt="Image 1"  style="height:200px; margin-left:20px; margin-top:70px;">
+            <img src="/Static/image 2.png" alt="Image 1"  style="height:200px; margin-left:20px; margin-top:70px;">
         </div>
         <div>
-            <img src="\LeifKleven\Static\image 1.png" alt="Image 2"style="height:200px;">
+            <img src="/Static/image 1.png" alt="Image 2"style="height:200px;">
         </div>
     </div>
 </div>

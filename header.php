@@ -56,7 +56,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 <a href="#" >
-    <amp-img class="logo" src="\LeifKleven\Static\sitelogo.png"
+    <amp-img class="logo" src="/Static/sitelogo.png"
       width="1"
       height="1"
       layout="responsive"
