@@ -26,11 +26,29 @@
         font-family:Serif;
     }
     .footerlogo{
-        width:350px;
+        width:300px;
         height:50px;
         margin: 10px 0 0 0;
     }
-
+   
+  .contactbtna{
+    height: 50%;
+  }
+  .hbt{
+    background-color: #B6975E;
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 0px;
+    text-decoration: none; 
+    height: 100px;
+  }
+  .bgv{
+    background-color: #B6975E;
+  }
+  footer{
+    width: 100%;
+  }
     </style>
 
 </head>
@@ -38,7 +56,27 @@
 <body>
 
 <div class="container-flex">
+  <!---------------------------- Section 8 -------------------------->
+    
+
+  <div class="row"  style="background-color: #D0D0D0;">
+    <div class="container-flex col-md-10 col-sm-12">
+        <amp-fit-text width="380" height="50" layout="responsive" id="fitText">
+            <h4>Let Us Manage Your Case</h4>
+        </amp-fit-text>
+    </div>
+
+    <div class="container-flex p3content col-md-2 col-sm-12 bgv" style="display: flex; justify-content: center; align-items: center; font-size:20px">
+        <a href="#" class=" hbt " id="contactBtn">Contact Us </a>
+    </div>
+</div>
+
+
+
+
+<!---------------------------- Footer -------------------------->
   <!-- Footer -->
+ <div class="row">
   <footer
           class="text-center text-lg-start text-black"
           style="background-color: #D8D8D8"
@@ -46,14 +84,14 @@
     <!-- Grid container -->
     <div class="container-flex p-4 pb-0">
       <!-- Section: Links -->
-      <section class="">
+      <section class="container-fluid">
         <!--Grid row-->
         <div class="row">
           <!-- Grid column -->
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <h6 class="text-uppercase mb-4 font-weight-bold">
             <a href="#" >
-                <amp-img class="footerlogo" src="  /Static/sitelogo.png"
+                <amp-img class="footerlogo" src="\LeifKleven\Static\sitelogo.png"
                 width="1"
                 height="1"
                 layout="responsive"
@@ -93,42 +131,8 @@
               <a class="footer-links">Terms and Conditions</a>
             </amp-fit-text >
           </div>
+<!-- Grid column -->
 
-          <!-- Grid column -->
-          <hr class="w-100 clearfix d-md-none" />
-
-          <!-- Grid column -->
-          <!-- <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Newsletter</h6>
-            <form method="post" action-xhr="#" target="_top">
-                <fieldset>
-                <label>
-                    <input class="newsletter-form" type="text"
-                    name="name"
-                    placeholder="Enter Email"
-                    required>
-                </label>
-                <br><br>
-                <input class="btn-submit" type="submit"
-                    value="Submit Now">
-                </fieldset>
-
-                <div submit-success>
-                <template type="amp-mustache">
-                    Subscription successful!
-                </template>
-                </div>
-                <div submit-error>
-                <template type="amp-mustache">
-                    Subscription failed!
-                </template>
-                </div>
-            </form>
-          </div> -->
-          <!-- Grid column -->
-        </div>
-        <!--Grid row-->
-      </section>
       <!-- Section: Links -->
 
       <hr class="my-3">
@@ -184,6 +188,7 @@
       </section>
     </div>
   </footer>
+</div>
 </div>
     
 </body>

@@ -22,17 +22,20 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-
-
+<script async src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
+<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
     <title>LeifKleven</title>
 
     <style amp-custom>
         body {
         margin: 0;
         padding: 0;
-        background:#D8D8D8;
-        font-family: sans-serif;
+        background-color:#D8D8D8;
+        font-family: 'Jost';
         color: #000;
+        font: weight 400px;
+        font: size 70px;
+        
         }
     .image-text {
       position: absolute;
@@ -71,17 +74,17 @@
     }
     .body-text{
         margin: 30px 0px 30px 0px;
-        font-family: serif;
+        font-family: 'Jost';
     }
     
     .body-text-p2{
         margin: 0px 0px 25px 0px;
-        font-family: serif;
+        font-family: 'Jost';
         color:;
     }
     .body-text-heading{
         margin: 0px 0px 30px 0px;
-        font-family: sans-serif;
+        font-family: 'Jost';
     }
     .page-2{
         
@@ -118,14 +121,15 @@
     }
     .p5content{
         position:absolute;
-        font-family:serif;
+        font-family:'Jost';
         margin:30px;
-        border-radius:20px;
+        
+        margin-top: 50px !important;
         background: rgba(255,255, 255, 0.5);
     }
     .body-text-p5{
         margin: 0px 0px 25px 0px;
-        font-family: serif;
+        font-family: 'Jost';
         color:;
     }
     @media only screen and (max-width: 768px) {
@@ -133,21 +137,21 @@
             width:35%;
             position:absolute;
         margin: 10px 0 0 10px;
-        font-family:serif;
+        font-family:'Jost';
         padding: 20px;
         font-size: 10px;
         background: rgba(255,255, 255, 0.5);
         }
     
     .body-text-p5{
-        font-family: serif;
+        font-family: 'Jost';
         font-size: 10px;
     }
 }
     .p6content{
         position:absolute;
         margin: 25px 0 0 50px;
-        font-family:serif;
+        font-family:'Jost';
         padding: 50px;
         color: #fff;
     }
@@ -191,6 +195,48 @@
       text-align: center;
       margin-top: 10px;
     }
+    .input-fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn1 {
+    background-color: #B6975E;
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 0px;
+    text-decoration: none; 
+    height:38px;
+}
+
+.btn1:hover {
+    background-color: #B6975E;
+    color: #ffffff;
+    text-decoration: none; 
+}
+.contact-img {
+    z-index: -1; /* Ensure the image is behind the form */
+    top: 100; /* Position at the top */
+    right: 0; /* Position at the right */
+}
+.accordion-item {
+      border: 1px solid black;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    /* Style active accordion question */
+    .accordion-button:focus {
+      color: brown;
+      background-color: white;
+    }
+
+    /* Add custom style for accordion body */
+    .accordion-body {
+      background-color: white; /* Set background color to white */
+      padding: 10px;
+    }
+    
     </style>
 
 </head>
@@ -203,57 +249,38 @@
 
      <!---------------------------- Body -------------------------->
 
-     <div class="container-flex body-img">
-        <amp-img src="  /Static/Container.png"
-            width="1228" height="819" layout="responsive">
-        </amp-img>
-        <div class="image-text-body">
+    <div class="container-flex body-img">
+    <amp-img src="\LeifKleven\Static\bgimg.png" 
+        width="1228" height="819" layout="responsive">
+    </amp-img>
+    <div class="image-text-body">
         <div class="body-text-heading col-md-6">
-                <amp-fit-text
-                    width="200" height="50" layout="responsive">
-                    Law Office Of <br> Leif Kelvin
-                </amp-fit-text>
-            </div>
             <amp-fit-text
-                width="200" height="10" layout="responsive">
-                I Am <span style="color: #B6975E"><b>Dedicated</b>.</span>
-<!--
-                <amp-carousel class="carousel2" layout="responsive" height="400" width="500" type="slides">
-                <div class="slide">
-                    <div class="caption">
-                    Dedicated
-                    </div>
-                </div>
-
-                <div class="slide">
-                    <div class="caption">
-                    Aggressive
-                    </div>
-                </div>
-
-                <div class="slide">
-                    <div class="caption">
-                    Creative
-                    </div>
-                </div>
-                </amp-carousel> -->
-
+                width="100" height="50" layout="responsive">
+                Law Office Of <br> Leif Kelvin
             </amp-fit-text>
-            <div class="body-text col-md-6">
-
-                <amp-fit-text
-                    width="200" height="50" layout="responsive">
-                    Attorney Leif Kleven is San Diego County's premiere attorney representing you and your loved ones in litigation involving  personal injury cases, car accidents, appeals, and more.
-                </amp-fit-text>
-            </div>
-            <input type="image" src="  /Static/bookConsultancy.png" alt="Book Consultancy Now" width="300px" height="auto">
+        </div>
+        <amp-fit-text 
+            width="200" height="10" layout="responsive">
+            I Am <span style="color: #B6975E;"><b>Dedicated</b>.</span>
+        </amp-fit-text>
+        <div class="body-text col-md-6">
+            <amp-fit-text
+                width="200" height="50" layout="responsive">
+                Attorney Leif Kleven is San Diego County's premiere attorney representing you and your loved ones in litigation involving personal injury cases, car accidents, appeals, and more.
+            </amp-fit-text>
+        </div>
+        <div class="col-md-6">
+            <a href="#" class="btn1" style="background-color: ' . $backgroundColor . '; color: ' . $fontColor . ';">Book Consultancy Now</a>
         </div>
     </div>
+</div>
+   
 
             <!---------------------------- Section 2 -------------------------->
             <div class="container-flex page-2">
 
-            <amp-img class="decorator01" src="  /Static/Decorator01.png"
+            <amp-img class="decorator01" src="\LeifKleven\Static\Decorator01.png" 
             width="100" height="100" layout="responsive">
         </amp-img>
             <div class="body-text-heading-p2 col-md-6">
@@ -262,10 +289,10 @@
                     Personal Injury
                 </amp-fit-text>
         </div>
-        <amp-img class="decorator" src="  /Static/Decorator.png"
+        <amp-img class="decorator" src="\LeifKleven\Static\Decorator.png" 
             width="50" height="50" layout="responsive">
         </amp-img>
-
+        
             <div class="image-text-body-p2">
             <div class="body-text-p2 col-md-8">
                 <amp-fit-text
@@ -275,19 +302,21 @@
                     Attorney Leif H. Kleven is a personal injury attorney, representing those who have been injured because of another's conduct. Whether you or a loved one were involved in a car accident, a bicycle accident, or the victim of another's wrongful conduct, the Law Office of Leif Kleven is dedicated to protecting your rights and ensuring that you are justly compensated for your injuries.
                 </amp-fit-text>
             </div>
-            <input type="image" src="  /Static/ContectUsNow.png" alt="Contact Us Now" width="300px" height="auto">
+            <div class="col-md-6">
+                    <a href="#" class="btn1" style="background-color: ' . $backgroundColor . '; color: ' . $fontColor . ';">Contact Us Now</a>
+                  </div>
         </div>
     </div>
             <!---------------------------- Section 3 -------------------------->
 <div class="row">
     <div class="container-flex col-md-6 col-sm-12">
-        <amp-img class="p3Image" src="  /Static/p3Image.png"
+        <amp-img class="p3Image" src="\LeifKleven\Static\p3Image.png" 
                 width="100" height="100" layout="responsive">
             </amp-img>
     </div>
 
     <div class="container-flex p3content col-md-6 col-sm-12">
-    <amp-img class="decorator3" src="  /Static/Decorator01.png"
+    <amp-img class="decorator3" src="\LeifKleven\Static\Decorator01.png" 
             width="100" height="100" layout="responsive">
         </amp-img>
             <div class="body-text-heading-p3">
@@ -300,17 +329,17 @@
                  <div class="body-text-p2">
                 <amp-fit-text
                     width="300" height="100" layout="responsive">
-                    San Diego federal criminal defense attorney Leif Kleven represents individuals charged with any federal crime. Your freedom is at stake once you have been charged with a federal crime. He has the federal trial experience in U.S. District Court for the Southern District of California and experience before the Ninth Circuit Court of Appeal to fight for your rights at every step.
+                    San Diego federal criminal defense attorney Leif Kleven represents individuals charged with any federal crime. Your freedom is at stake once you have been charged with a federal crime. He has the federal trial experience in U.S. District Court for the Southern District of California and experience before the Ninth Circuit Court of Appeal to fight for your rights at every step.    
                 </amp-fit-text>
                 </div>
-            <input type="image" src="  /Static/ContectUsNow.png" alt="Contact Us Now" width="300px" height="auto">
+                <a href="#" class="btn1" style="background-color: ' . $backgroundColor . '; color: ' . $fontColor . ';">Contact Us Now</a>
             </div>
         </div>
     </div>
      <!---------------------------- Section 4 -------------------------->
      <div class="container-flex page-2">
 
-        <amp-img class="decorator01" src="  /Static/Decorator01.png"
+        <amp-img class="decorator01" src="\LeifKleven\Static\Decorator01.png" 
         width="200" height="200" layout="responsive">
         </amp-img>
         <div class="body-text-heading-p2 col-md-6">
@@ -319,7 +348,7 @@
                 Appeals
             </amp-fit-text>
         </div>
-        <amp-img class="decorator" src="  /Static/Decorator.png"
+        <amp-img class="decorator" src="\LeifKleven\Static\Decorator.png" 
         width="50" height="50" layout="responsive">
         </amp-img>
 
@@ -329,7 +358,7 @@
                 width="200" height="60" layout="responsive">
                 Decisions of the trial court may not be the end of litigation. Attorney Leif Kleven is an experienced appellate attorney and works with you to represent your interests on appeal, and is licensed to practice before the California Supreme Court, all of the Courts of Appeal in the State of California, and the Ninth Circuit Court of Appeals</amp-fit-text>
         </div>
-        <input type="image" src="  /Static/ContectUsNow.png" alt="Contact Us Now" width="300px" height="auto">
+        <a href="#" class="btn1" style="background-color: ' . $backgroundColor . '; color: ' . $fontColor . ';">Contact Us Now</a>
         </div>
         </div>
 
@@ -338,34 +367,35 @@
         <!---------------------------- Section 5 -------------------------->
 
     <div class="row">
-        <amp-img class="Container-about" src="  /Static/Container-about.png"
+        <amp-img class="Container-about" src="\LeifKleven\Static\teambg.png" 
                 width="200" height="100" layout="responsive">
             </amp-img>
 
         <div class="container-flex p5content col-md-5 col-sm-12">
-            <amp-img class="decorator3" src="  /Static/Decorator01.png"
+            <amp-img class="decorator3" src="\LeifKleven\Static\Decorator01.png" 
                 width="200" height="200" layout="responsive">
             </amp-img>
-                <div class="body-text-heading-p3">
-                    <amp-fit-text
-                        width="480" height="100" layout="responsive">
-                        About
-                    </amp-fit-text>
-                </div>
-                <div class="image-text-body-p2">
-                    <div class="body-text-p5">
-                        <amp-fit-text
-                            width="250" height="220" layout="responsive">
-                           Attorney Leif H. Kleven is an attorney and advocate, representing individuals in civil litigation and federal criminal defense cases in San Diego, California, Chula Vista, California, and throughout Southern California. Mr. Kleven is committed to providing individualized, one-on-one representation to each of his clients. </amp-fit-text>
-                    </div>
-                </div>
+            <div class="body-text-heading-p3 normal-font"> 
+    <amp-fit-text
+        width="480" height="100" layout="responsive">
+        About
+    </amp-fit-text>
+</div>
+<div class="image-text-body-p2">
+    <div class="body-text-p5 normal-font"> 
+        <amp-fit-text
+            width="250" height="200" layout="responsive">
+           Attorney Leif H. Kleven is an attorney and advocate, representing individuals in civil litigation and federal criminal defense cases in San Diego, California, Chula Vista, California, and throughout Southern California. Mr. Kleven is committed to providing individualized, one-on-one representation to each of his clients.
+        </amp-fit-text>
+    </div>
+</div>
         </div>
     </div>
 
  <!---------------------------- Section 6 FAQs -------------------------->
 
  <div class="row faqs">
-       <amp-img class="faqsBg img-fluid" src="  /Static/bgFaqs.png"
+       <amp-img class="faqsBg img-fluid" src="\LeifKleven\Static\bgFaqs.png"
          width="200"
          height="100"
          layout="responsive"
@@ -379,181 +409,148 @@
             </amp-fit-text>
         </div>
 
-       <div class="container col-md-8 col-sm-12"  style="position:absolute; margin-left: 10%;">
-			<div id="accordion">
-				<div class="card faqsCard">
-					<button class="card-header collapsed card-link"
-							data-toggle="collapse"
-							data-target="#collapseOne">
-
-						<b class="header-title float-left">
-                        What is Leif Kleven?
-						</b>
-						<i class="fas fa-plus float-right "></i>
-					</button>
-
-					<div id="collapseOne" class="collapse"
-							data-parent="#accordion">
-						<div class="card-body">
-                        Leif Kleven is a passionate attorney and advocate.
-                        He began his career representing individuals charged with
-                        committing crimes in federal court (both in the Southern
-                        District of California and Central District of California)
-                        and in San Diego County Superior Court.
-						</div>
-					</div>
-				</div>
-				<div class="card faqsCard">
-					<button class="card-header collapsed card-link"
-							data-toggle="collapse"
-							data-target="#collapseTwo">
-
-						<b class="header-title float-left">
-                        What is Leif Kleven?</b>
-						<i class="fas fa-plus float-right "></i>
-					</button>
-
-					<div id="collapseTwo" class="collapse"
-							data-parent="#accordion">
-						<div class="card-body">
-                        Leif Kleven is a passionate attorney and advocate.
-                        He began his career representing individuals charged with
-                        committing crimes in federal court (both in the Southern
-                        District of California and Central District of California)
-                        and in San Diego County Superior Court.
-						</div>
-					</div>
-				</div>
-
-				<div class="card faqsCard">
-					<button class="card-header collapsed card-link"
-							data-toggle="collapse"
-							data-target="#collapseThree">
-
-						<b class="header-title float-left">
-                        What is Leif Kleven?
-						</b>
-						<i class="fas fa-plus float-right "></i>
-
-					</button>
-					<div id="collapseThree" class="collapse"
-							data-parent="#accordion">
-						<div class="card-body">
-                        Leif Kleven is a passionate attorney and advocate.
-                        He began his career representing individuals charged with
-                        committing crimes in federal court (both in the Southern
-                        District of California and Central District of California)
-                        and in San Diego County Superior Court.
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-       </div>
-
-    </div>
-    <!---------------------------- Section 7 Contact Form -------------------------->
-    <div class="row">
-        <div class="container my-5">
-  <div class="row justify-content-center">
-    <div class="col-lg-9">
-      <h1 class="mb-3"> <amp-fit-text
-                width="480" height="100" layout="responsive">
-                Contact Us
-            </amp-fit-text></h1>
-      <form>
-        <div class="row g-3">
-          <div class="col-md-6">
-            <label for="your-name" class="form-label">Full Name</label>
-            <input type="text" class="form-control" id="your-name" name="your-name" required>
-          </div>
-          <div class="col-md-6">
-            <label for="your-email" class="form-label">Email Address</label>
-            <input type="email" class="form-control" id="your-email" name="your-email" required>
-          </div>
-          <div class="col-md-6">
-            <label for="street-address" class="form-label">Street Address</label>
-            <input type="text" class="form-control" id="street-address" name="street-address" required>
-          </div>
-          <div class="col-md-6">
-            <label for="phone-number" class="form-label">Phone Number</label>
-            <input type="tel" class="form-control" id="phone-number" name="phone-number">
-          </div>
-          <div class="col-12">
-            <label for="your-message" class="form-label">Your Message</label>
-            <textarea class="form-control" id="your-message" name="your-message" rows="5" required></textarea>
-          </div>
-          <div class="col-12">
-            <div class="row">
-              <div class="col-md-6">
-                <button data-res="<?php echo $sum; ?>" type="submit" class="btn btn-dark w-100 fw-bold" >Submit Now</button>
-              </div>
-            </div>
+      <div class="row">
+  <!-- First column for the first three accordions -->
+  <div class="col-md-6">
+    <div class="accordion" id="accordionColumn1">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          What is Leif Kleven?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionColumn1">
+          <div class="accordion-body">
+          Leif Kleven is a passionate attorney and advocate. He began his career representing individuals charged with committing crimes in federal court (both in the Southern District of California and Central District of California) and in San Diego County Superior Court. </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          What Leif Kleven are really doing?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionColumn1">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
           </div>
         </div>
-      </form>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          When Leif Kleven was established and why?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionColumn1">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="contact-img">
-    <amp-img class="" style="width:50%; height: auto; float:right;" src="  /Static/contactFormLogo.png"
-         width="1"
-         height="1"
-         layout="responsive"
-         alt="contactFormLogo">
-       </amp-img>
-    </div>
+  </div>
 
+  <!-- Second column for the next three accordions -->
+  <div class="col-md-6">
+    <div class="accordion" id="accordionColumn2">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+          What Leif Kleven are really doing?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionColumn2">
+          <div class="accordion-body">
+            <strong>This is the fourth item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          When Leif Kleven was established and why?
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionColumn2">
+          <div class="accordion-body">
+            <strong>This is the fifth item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          What Leif Kleven are really doing?
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionColumn2">
+          <div class="accordion-body">
+            <strong>This is the sixth item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-    </div>
-    <!---------------------------- Section 7 End -------------------------->
+<?php
 
-        <!---------------------------- Section 8 -------------------------->
-
+include_once 'function.php';
 
 
-        <div class="row">
-    <div class="container col-sm-12 col-md-1">
-        <div class="slider-container">
-            <div class="slider-text">
-                <amp-carousel width="200" height="100" layout="responsive" type="slides">
-                    <div class="slide">
-                    <div class="slider-text">
-                        <amp-fit-text width="200" height="100" layout="responsive">
-                            Your Text Content 1
-                        <amp-fit-text>
+handle_form_submission();
+?>
+    <!---------------------------- Section 7 Contact Form -------------------------->
+    <div class="row">
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <h1 class="mb-3">
+                    <amp-fit-text width="480" height="100" layout="responsive">
+                        Contact Us
+                    </amp-fit-text>
+                </h1>
+                <form method="POST" action-xhr="contact-us.php" target="_top" >
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="your-name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="your-name" name="name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="your-email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="your-email" name="email" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="street-address" class="form-label">Street Address</label>
+                            <input type="text" class="form-control" id="street-address" name="street-address" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phone-number" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone-number" name="phone-number">
+                        </div>
+                        <div class="col-12">
+                            <label for="your-message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="your-message" name="message" rows="5" required></textarea>
+                        </div>
+                        <div class="col-12">
+                            <input type="submit" class="btn1" value="Submit" name="submit" style="background-color:{{backgroundColor}}; color:{{fontColor}};">
+                        </div>
                     </div>
-                <div class="slider-image">
-                    <amp-img class="slider-image" src="  /Static/ReviewImage.png" width="400" height="300" layout="responsive"></amp-img>
-                </div>
+                </form>
             </div>
-            <div class="slide">
-                <div class="slider-text">
-                    <amp-fit-text width="200" height="100" layout="responsive">
-                        Your Text Content 2
-                    <amp-fit-text>
-                    </div>
-                <div class="slider-image">
-                    <amp-img class="slider-image" src="  /Static/ReviewImage.png" width="400" height="300" layout="responsive"></amp-img>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="slider-text">
-                    <amp-fit-text width="200" height="100" layout="responsive">
-                        Your Text Content 3
-                    <amp-fit-text>
-                    </div>
-                <div class="slider-image">
-                    <amp-img class="slider-image" src="  /Static/ReviewImage.png" width="400" height="300" layout="responsive"></amp-img>
-                </div>
+            <div class="contact-img">
+                <amp-img class="" style="width:50%; height: auto; float:right;" src="/LeifKleven/Static/contactFormLogo.png"
+                         width="1"
+                         height="1"
+                         layout="responsive"
+                         alt="contactFormLogo">
+                </amp-img>
             </div>
         </div>
     </div>
 </div>
-        
-    <!---------------------------- Body END -------------------------->
 
+    <!---------------------------- Section 7 End -------------------------->
 
 
     <!---------------------------- Footer -------------------------->
