@@ -32,22 +32,32 @@
     }
    
   .contactbtna{
-    height: 50%;
+      margin-top: 80px;
   }
   .hbt{
-    background-color: #B6975E;
-    color: #ffffff; 
-    padding: 10px 20px; 
+
+    color: black;
+
     border: none;
     border-radius: 0px;
     text-decoration: none; 
-    height: 100px;
+
   }
   .bgv{
     background-color: #B6975E;
+      height: 100px;
   }
   footer{
     width: 100%;
+  }
+  .row-w-c{
+      height: 100px;
+  }
+  .txtcls{
+      margin-left: 80px;
+      margin-top: -30px;
+      color:  #777777;
+
   }
     </style>
 
@@ -59,10 +69,10 @@
   <!---------------------------- Section 8 -------------------------->
     
 
-  <div class="row"  style="background-color: #D0D0D0;">
-    <div class="container-flex col-md-10 col-sm-12">
+  <div class="row row-w-c"  style="background-color: #D0D0D0;">
+    <div class="container-flex col-md-10  col-sm-12 ">
         <amp-fit-text width="380" height="50" layout="responsive" id="fitText">
-            <h4>Let Us Manage Your Case</h4>
+            <h4 class="txtcls">Let Us Manage Your Case</h4>
         </amp-fit-text>
     </div>
 
@@ -106,16 +116,16 @@
           <!-- Grid column -->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <amp-fit-text >
-              <a class="footer-links">Home</a>
+              <a href="index.php" class="footer-links">Home</a>
             </amp-fit-text >
             <amp-fit-text >
-              <a class="footer-links">Services</a>
+              <a href="#" class="footer-links">Services</a>
             </amp-fit-text >
             <amp-fit-text >
-              <a class="footer-links">About</a>
+              <a href="About.php" class="footer-links">About</a>
             </amp-fit-text >
             <amp-fit-text >
-              <a class="footer-links">Contact</a>
+              <a href="contact-us.php" class="footer-links">Contact</a>
             </amp-fit-text >
           </div>
           <!-- Grid column -->

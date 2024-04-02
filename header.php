@@ -3,59 +3,73 @@
 
 <style amp-custom>   
     .header {
-        background-color: black;
-        color: white;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 20px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        transition: opacity 0.3s ease-in-out;
-        opacity: 1;
-        z-index: 100;
-        }
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 800px 800px;
+    height: 700px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+    z-index: 100;
+}
 
-        .header.scrolled {
-        opacity: 0.8;
-        }
+.header.scrolled {
+    opacity: 0.8;
+}
 
-        .logo {
-            width:350px;
-            height:50px;
-            margin: 30px;
-        }
-        nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: blocks;
-        margin-right: 50px;
-        }
+.logo {
+    width: 350px;
+    height: 50px;
+    margin-right: 420px; /* Adjusted margin to create space between logo and nav */
+    margin-left: 60px;
+}
 
-        nav li {
-            margin-left: 20px;
-            display: inline-block;
-        }
+nav ul {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    display: flex; /* Changed to flex to adjust spacing between nav items */
+    align-items: center;
+}
 
-        nav a {
-        color: white;
-        text-decoration: none;
-        transition: color 0.3s ease-in-out;
-        }
+nav li {
+    margin-left: 10px;
+}
 
-        .nav-item a:hover {
-        color: #B6975E;
-        }
+nav a {
+    color: black; /* Changed font color to black */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-item a:hover {
+    color: #B6975E; /* Changed hover font color to brown */
+}
+
+/* Change active link color */
+.nav-item.active a {
+    color: brown;
+}
+
+/* Change dropdown background color */
+.dropdown-menu {
+    background-color: brown;
+    color:black;
+}
+
 
     </style>
 
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-<a href="#" >
+<a href="index.php" >
     <amp-img class="logo" src="/Static/sitelogo.png"
       width="1"
       height="1"
@@ -68,7 +82,7 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
 
       <li class="nav-item dropdown">
@@ -77,8 +91,8 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">Personal Injury</a>
-          <a class="dropdown-item" href="#">Appeals</a>
-          <a class="dropdown-item" href="#">Federal Criminal Defense</a>
+          <a class="dropdown-item" href="Appeals.php">Appeals</a>
+          <a class="dropdown-item" href="Appeals2.php">Federal Criminal Defense</a>
         </div>
       </li>
 
